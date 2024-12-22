@@ -1,0 +1,13 @@
+.footer{
+  background-color: white;
+  height: 5rem;
+  align-content: center;
+}
+
+.footer-logo{
+  margin-left: 2rem;
+}
+
+.footer img{
+  width: 1.5rem;
+}

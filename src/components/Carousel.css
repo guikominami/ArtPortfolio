@@ -1,0 +1,37 @@
+.content{
+  height: 27.5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.gallery-container{
+align-items: center;
+}
+
+.gallery-container ul {
+  display: flex;
+  list-style: none;
+  height: 27rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  margin: 0 auto;
+}
+
+.gallery-container li {
+  flex: 0 0 200px;
+  background: var(--accent);
+  margin: 0 20px 0 0;
+}
+
+.gallery-container li:last-of-type {
+  margin: 0;
+}
+
+.carousel-img{
+  width: 28rem;
+  border: 0;
+  border-style: none;
+  opacity: 1;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}

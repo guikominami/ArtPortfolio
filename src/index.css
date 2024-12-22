@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Segoe UI:wght@400&family=Helvetica Neue:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: #474747;
+}
+
+p{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  background-color: rgba(211,211,211,1);
+  padding: 2rem;
+}
+
+.main-test{
+  background-color: white;
+}
