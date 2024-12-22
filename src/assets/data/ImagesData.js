@@ -92,19 +92,6 @@ export const Digital = [
   },
 ]
 
-export const Contact = [
-  {
-    id: 1,
-    url: "/drawings/drawings001.jpg",
-    text: "Contact 1",
-  },
-  {
-    id: 2,
-    url: "/drawings/drawings002.jpg",
-    text: "Contact 2",
-  },
-]
-
 export const Menu = [
   {
     id: 1,

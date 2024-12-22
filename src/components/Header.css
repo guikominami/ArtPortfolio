@@ -1,54 +1,44 @@
-.header-wrap{
+.header-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: white;
   vertical-align: baseline;
-  justify-content:space-between;
+  justify-content: space-between;
   border-top: 1px solid rgb(171, 169, 169);
   height: 7.5rem;
 }
 
-.logo{
+.logo {
   padding-top: 1.8rem;
   padding-bottom: 1rem;
-  margin-left: 30px;
+  margin-left: 1rem;
 }
 
-.logo img{
-  width: 35%;
+.logo img {
+  width: 17rem;
 }
 
-.header-bottom-bar{
+.header-bottom-bar {
   margin-right: 4rem;
-
-
 }
 
-.navigation{
-
-}
-
-.menu{
-
-}
-
-.menu ul{
-
-}
-
-.menu li{
+.menu li {
   display: inline;
   margin-left: 2rem;
-
 }
 
-.menu button{
-  background-color: transparent;
-  font: inherit;
-  color: #9c9c9c;
-}
+@media screen and (max-width: 600px) {
+  .header-wrap {
+    position: fixed;
+  }
 
-.menu button:hover{
-  color: rgb(96, 93, 93);
+  .logo img {
+    width: 10rem;
+  }
+
+  .header-bottom-bar {
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
 }

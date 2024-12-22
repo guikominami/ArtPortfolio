@@ -1,11 +1,12 @@
 import { useRef, useEffect } from "react";
 import "./Carousel.css";
 
-export default function Carousel({ contentArea }) {
-  console.log("carousel", contentArea);
+export default function Carousel({ contentArea, load }) {
+  useEffect(() => {}, [contentArea]);
 
   function useHorizontalScroll() {
     const elRef = useRef();
+
     useEffect(() => {
       const el = elRef.current;
       if (el) {

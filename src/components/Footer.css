@@ -1,13 +1,21 @@
-.footer{
+.footer {
+  /* position: absolute; */
   background-color: white;
-  height: 5rem;
+  height: 3rem;
   align-content: center;
+  display: flex;
 }
 
-.footer-logo{
+.footer-logo {
   margin-left: 2rem;
 }
 
-.footer img{
+.footer img {
   width: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: none;
+  }
 }

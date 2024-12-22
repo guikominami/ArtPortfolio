@@ -1,16 +1,38 @@
-.content{
-  height: 27.5rem;
+.content {
+  height: 27.2rem;
   background-color: rgb(255, 255, 255);
 }
 
-.gallery-container{
-align-items: center;
+.gallery-container {
+  align-items: center;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.3;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .gallery-container ul {
   display: flex;
   list-style: none;
-  height: 27rem;
+  height: 26rem;
   overflow-x: hidden;
   overflow-y: hidden;
   margin: 0 auto;
@@ -25,11 +47,44 @@ align-items: center;
   margin: 0;
 }
 
-.carousel-img{
-  width: 28rem;
+.carousel-img {
+  width: 25rem;
   border: 0;
   border-style: none;
-  opacity: 1;
-  overflow-x: scroll;
-  overflow-y: scroll;
+  /* overflow-x: scroll;
+  overflow-y: scroll; */
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .gallery-container {
+    justify-content: center;
+  }
+
+  .gallery-container ul {
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 1rem;
+    height: auto;
+  }
+
+  .gallery-container li {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .gallery-container li:first-child {
+    margin-top: 7rem;
+  }
+
+  .carousel-img {
+    width: 20rem;
+    margin: 0;
+  }
 }

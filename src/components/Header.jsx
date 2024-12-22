@@ -1,8 +1,12 @@
 import logo from "../assets/imgs/logos/logo.jpg";
 import "./Header.css";
 import { Menu } from "../assets/data/ImagesData";
+import Button from "./Button";
+import { useState } from "react";
 
 export default function Header({ onMenuClicked }) {
+  const [buttonActiveClass, setButtonActiveClass] = useState(false);
+
   return (
     <div className="header-wrap">
       <div className="logo">
@@ -15,16 +19,11 @@ export default function Header({ onMenuClicked }) {
           <ul>
             {Menu.map((item, index) => (
               <li key={index}>
-                <button onClick={() => onMenuClicked(item.content)}>
+                <Button onClick={() => onMenuClicked(item.content)}>
                   {item.text}
-                </button>
+                </Button>
               </li>
             ))}
-            <li>
-              <button onClick={() => onMenuClicked("contact")}>
-                contact
-              </button>
-            </li>
           </ul>
         </div>
       </div>
