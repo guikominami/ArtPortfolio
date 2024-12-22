@@ -6,7 +6,7 @@
   vertical-align: baseline;
   justify-content:space-between;
   border-top: 1px solid rgb(171, 169, 169);
-  height: 20%;
+  height: 7.5rem;
 }
 
 .logo{
@@ -16,12 +16,11 @@
 }
 
 .logo img{
-  
-  
+  width: 35%;
 }
 
 .header-bottom-bar{
-  margin-right: 3rem;
+  margin-right: 4rem;
 
 
 }

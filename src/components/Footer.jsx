@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-logo">
-        <img src={logoInstagram} alt="" />
+        <a href="https://instagram.com/labmudalab" target="_blank">
+          <img src={logoInstagram} alt="" />
+        </a>
       </div>
     </div>
   );

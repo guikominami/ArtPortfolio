@@ -6,7 +6,9 @@ export default function Header({ onMenuClicked }) {
   return (
     <div className="header-wrap">
       <div className="logo">
-        <img src={logo} alt="" />
+        <a href="">
+          <img src={logo} alt="" />
+        </a>
       </div>
       <div className="header-bottom-bar">
         <div className="menu">

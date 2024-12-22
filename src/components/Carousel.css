@@ -13,14 +13,12 @@ align-items: center;
   height: 27rem;
   overflow-x: hidden;
   overflow-y: hidden;
-
   margin: 0 auto;
 }
 
 .gallery-container li {
   flex: 0 0 200px;
-  background: var(--accent);
-  margin: 0 20px 0 0;
+  margin: 0 1rem 0 1rem;
 }
 
 .gallery-container li:last-of-type {

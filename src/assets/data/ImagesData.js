@@ -7,32 +7,87 @@ export const Drawings = [
   {
     id: 2,
     url: "/drawings/drawings002.jpg",
-    text: "Drawings 2",
+    text: "Aranha",
   },
+  {
+    id: 3,
+    url: "/drawings/drawings003.jpg",
+    text: "Mergulhador",
+  },
+  {
+    id: 4,
+    url: "/drawings/drawings004.jpg",
+    text: "Tiozim",
+  },
+  {
+    id: 5,
+    url: "/drawings/drawings005.jpg",
+    text: "Panda",
+  },
+  {
+    id: 6,
+    url: "/drawings/drawings006.jpg",
+    text: "Vovó",
+  },
+  {
+    id: 7,
+    url: "/drawings/drawings007.jpg",
+    text: "Drawings 7",
+  },
+  {
+    id: 8,
+    url: "/drawings/drawings008.jpg",
+    text: "Drawings 8",
+  },
+  {
+    id: 9,
+    url: "/drawings/drawings009.jpg",
+    text: "Drawings 9",
+  },  
+  {
+    id: 10,
+    url: "/drawings/drawings010.jpg",
+    text: "Drawings 10",
+  },   
+  {
+    id: 11,
+    url: "/drawings/drawings011.jpg",
+    text: "Amy",
+  },  
 ]
 
-export const Trains = [
+export const Sketches = [
   {
     id: 1,
-    url: "/drawings/drawings001.jpg",
-    text: "Trains 1",
+    url: "/sketches/sketches001.jpg",
+    text: "sketches 1",
   },
   {
     id: 2,
-    url: "/drawings/drawings002.jpg",
-    text: "Trains 2",
+    url: "/sketches/sketches002.jpg",
+    text: "sketches 2",
   },
+  {
+    id: 3,
+    url: "/sketches/sketches003.jpg",
+    text: "sketches 3",
+  },
+  {
+    id: 4,
+    url: "/sketches/sketches004.jpg",
+    text: "sketches 4",
+  },  
 ]
 
-export const Books = [
+export const Digital = [
   {
     id: 1,
-    url: "/drawings/drawings001.jpg",
+    url: "/digital/digital001.jpg",
     text: "Books 1",
   },
   {
     id: 2,
-    url: "/drawings/drawings002.jpg",
+    url: "/digital/digital002.jpg",
     text: "Books 2",
   },
 ]
@@ -53,22 +108,17 @@ export const Contact = [
 export const Menu = [
   {
     id: 1,
-    text: "trains",
-    content: Trains,
-  },
-  {
-    id: 2,
-    text: "books",
-    content: Books,
-  },
-  {
-    id: 3,
     text: "drawings",
     content: Drawings,
   },
   {
-    id: 4,
-    text: "contact",
-    content: Contact,
+    id: 2,
+    text: "sketches",
+    content: Sketches,
+  },
+  {
+    id: 3,
+    text: "digital",
+    content: Digital,
   },
 ];
