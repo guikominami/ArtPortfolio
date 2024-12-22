@@ -1,9 +1,9 @@
 import { useRef, useEffect } from "react";
-import { CoverImages } from "../assets/data/ImagesData";
-
 import "./Carousel.css";
 
-export default function Carousel() {
+export default function Carousel({ contentArea }) {
+  console.log("carousel", contentArea);
+
   function useHorizontalScroll() {
     const elRef = useRef();
     useEffect(() => {
@@ -30,7 +30,7 @@ export default function Carousel() {
     <section className="content">
       <div className="gallery-container">
         <ul ref={scrollRef}>
-          {CoverImages.map((item, index) => (
+          {contentArea.map((item, index) => (
             <li className="card" key={index}>
               <img className="carousel-img" src={item.url} alt={""} />
             </li>

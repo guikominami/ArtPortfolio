@@ -41,5 +41,15 @@
 .menu li{
   display: inline;
   margin-left: 2rem;
+
+}
+
+.menu button{
+  background-color: transparent;
+  font: inherit;
   color: #9c9c9c;
+}
+
+.menu button:hover{
+  color: rgb(96, 93, 93);
 }
