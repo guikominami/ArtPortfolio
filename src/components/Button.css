@@ -2,12 +2,17 @@ button {
   background-color: transparent;
   font: inherit;
   color: #9c9c9c;
+  cursor: pointer;
 }
 
 button:hover {
   color: rgb(59, 59, 59);
 }
 
-.button:active {
+button:active {
+  color: rgb(59, 59, 59);
+}
+
+button:focus {
   color: rgb(59, 59, 59);
 }

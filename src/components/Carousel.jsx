@@ -1,9 +1,8 @@
 import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 import "./Carousel.css";
 
-export default function Carousel({ contentArea, load }) {
-  useEffect(() => {}, [contentArea]);
-
+export default function Carousel({ contentArea }) {
   function useHorizontalScroll() {
     const elRef = useRef();
 
@@ -32,9 +31,25 @@ export default function Carousel({ contentArea, load }) {
       <div className="gallery-container">
         <ul ref={scrollRef}>
           {contentArea.map((item, index) => (
-            <li className="card" key={index}>
-              <img className="carousel-img" src={item.url} alt={""} />
-            </li>
+            <motion.li
+              className="card"
+              key={index}
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1 },
+              }}
+              transition={{ type: "spring" }}
+              initial="hidden"
+              animate="visible"
+              exit={{ opacity: 1 }}
+              open
+            >
+              <motion.img
+                className="carousel-img"
+                src={item.url}
+                alt={""}
+              />
+            </motion.li>
           ))}
         </ul>
       </div>

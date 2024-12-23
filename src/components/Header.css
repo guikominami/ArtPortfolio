@@ -31,14 +31,28 @@
 @media screen and (max-width: 600px) {
   .header-wrap {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .logo {
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+    margin-left: 0;
   }
 
   .logo img {
-    width: 10rem;
+    width: 15rem;
   }
 
   .header-bottom-bar {
-    margin-right: 1rem;
-    margin-left: 3rem;
+    margin: 0;
+  }
+
+  .menu li:first-child {
+    margin-left: 1rem;
   }
 }

@@ -5,8 +5,6 @@ import Button from "./Button";
 import { useState } from "react";
 
 export default function Header({ onMenuClicked }) {
-  const [buttonActiveClass, setButtonActiveClass] = useState(false);
-
   return (
     <div className="header-wrap">
       <div className="logo">
