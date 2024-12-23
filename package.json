@@ -2,7 +2,7 @@
   "name": "artportfolio",
   "homepage": "https://mudalab.com.br/artportfolio/",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
