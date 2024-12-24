@@ -165,11 +165,6 @@ export const Digital = [
     url: "./digital/digital015.jpg",
     text: "monsters",
   },
-  {
-    id: 16,
-    url: "./digital/digital016.jpg",
-    text: "monsters",
-  },
 ];
 
 export const Menu = [

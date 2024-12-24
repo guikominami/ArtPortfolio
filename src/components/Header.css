@@ -39,8 +39,8 @@
   }
 
   .logo {
-    padding-top: 1.5rem;
-    padding-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
     margin-left: 0;
   }
 
@@ -50,6 +50,7 @@
 
   .header-bottom-bar {
     margin: 0;
+    margin-bottom: 1rem;
   }
 
   .menu li:first-child {
